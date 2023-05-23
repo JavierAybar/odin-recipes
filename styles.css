@@ -1,0 +1,29 @@
+.links-nav-logo {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(71, 70, 70);
+}
+
+.links-about{
+    display: flex;
+    gap: 30px;
+    padding-right:15px ;
+    align-items: center;
+}
+
+.logo{
+    color: orange;
+    padding-left: 25px;
+    transform: skew(-10deg);
+}
+
+li{
+    list-style: none;
+    transform: skew(-10deg); 
+}
+
+a {
+    color: orange;
+    text-decoration: none; 
+    font-size: 20px;
+}
