@@ -9,6 +9,7 @@
     gap: 30px;
     padding-right:15px ;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .logo{
@@ -25,5 +26,32 @@ li{
 a {
     color: orange;
     text-decoration: none; 
+    font-size: 20px;
+}
+
+
+
+
+
+.main-conteiner{
+    background-image: url(images/pexels-engin-akyurt-1435895.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+
+.main-text-video{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 380px;
+    margin-left:150px ;
+    margin-bottom: 90px;
     font-size: 20px;
 }
