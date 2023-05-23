@@ -19,8 +19,7 @@
 }
 
 li{
-    list-style: none;
-    transform: skew(-10deg); 
+    list-style: none; 
 }
 
 a {
@@ -54,4 +53,32 @@ a {
     margin-left:150px ;
     margin-bottom: 90px;
     font-size: 20px;
+}
+
+
+
+.container-cards-seccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.img-card {
+    height: 300px;
+    width: 250px;
+    border-radius:10px ; 
+}
+
+.links-cards{
+    display: flex;
+    gap: 180px;
+    margin-top: 25px;
 }
